@@ -9,7 +9,7 @@ export class ListadoComponent {
   heroes: string[] = ['Spiderman', 'Ironman', 'Sheldom', 'Thor'];
   heroeBorrado: string = '';
 
-  
+
   borrarHeroe(): void {
     console.log("borrando ..");
 
